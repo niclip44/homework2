@@ -3,8 +3,12 @@
 
 Welcome <?php echo $_POST["name"]; ?><br>
 Your email address is: <?php echo $_POST["email"]; ?><br>
-  You are <?php echo $_POST["age"]; ?> years old<br>
-You attend <?php echo $_POST["school"]; ?><br>
+ 
+  <form action="handleget.php" method="post">
+Age: <input type="text" name="age"><br>
+School: <input type="text" name="school"><br>
+<input type="submit">
+</form>
 
 
 </body>
