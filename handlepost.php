@@ -2,7 +2,7 @@
 <body>
 
 Welcome <?php echo $_GET["name"]; ?><br>
-Your email address is: <?php echo $_GET["email"]; ?>
+Your email address is: <?php echo $_GET["email"]; ?><br>
   
   you are <?php echo $_POST["age"]; ?><br>
 Your school is <?php echo $_POST["school"]; ?>
