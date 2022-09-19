@@ -1,7 +1,7 @@
 <html>
 <body>
 
-<form action="handlepost.php" method="get">
+<form action="handlepost.php" method="post">
 Name: <input type="text" name="name"><br>
 E-mail: <input type="text" name="email"><br>
  <form action="handleget.php" method="get">
