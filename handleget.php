@@ -1,9 +1,6 @@
 <html>
   <body>
-<form action="handlepost.php" method="post">
-Age: <input type="text" name="age"><br>
-School: <input type="text" name="school"><br>
-<input type="submit">
-</form>
+You are <?php echo $_GET["age"]; ?> years old<br>
+You attend <?php echo $_GET["school"]; ?> for school <br>
   </body>
 </html>
